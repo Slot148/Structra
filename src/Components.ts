@@ -49,3 +49,5 @@ class Component {
         this.element.remove();
     }
 }
+
+export{Component}
