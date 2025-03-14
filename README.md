@@ -31,7 +31,7 @@ A **Structra** oferece uma maneira eficiente e modular de criar componentes HTML
 
 Se você estiver utilizando o Node.js e o npm, basta rodar o seguinte comando:
 
-```bash
+```sh
 npm i stuctra
 ```
 
