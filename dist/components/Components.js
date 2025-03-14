@@ -29,4 +29,5 @@ class Component {
         this.element.remove();
     }
 }
-exports.Component = Component;
+
+export {Component}
