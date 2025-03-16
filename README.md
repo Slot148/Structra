@@ -110,11 +110,17 @@ new Component({
 
 ### **Métodos da Classe `Component`**
 
-- **`render(parent: HTMLElement)`**: Este método insere o componente no DOM. Ele é chamado automaticamente ao criar o componente, mas também pode ser chamado manualmente para renderizar em um elemento pai específico.
+- **`render(parent: HTMLElement)`**: Este método insere o componente no DOM.
   
+   ```javascript
+  myComponent.render();
+  ```
+  - Renderiza o elemento diretamente no body do documento
+
   ```javascript
   myComponent.render(document.getElementById('custom-container'));
   ```
+  - Renderiza o elemento em um container específico
 
 - **`destroy()`**: Remove o componente e seus filhos do DOM.
 
@@ -142,7 +148,7 @@ const container = new Component({
   ]
 });
 
-// O componente será automaticamente renderizado no corpo da página
+container.render()
 ```
 
 ### **Resultado Esperado:**
