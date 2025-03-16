@@ -36,7 +36,6 @@ class Component {
         this.children = children.map((child) => child instanceof Component ? child : new Component(child));
         this.children.forEach(child => this.element.appendChild(child.element));
 
-        this.render();
     }  
 
     render(parent = document.body) {
