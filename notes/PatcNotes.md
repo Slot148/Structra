@@ -1,5 +1,5 @@
 # **Patch Notes**
-## **1.1.0**
+## **1.0.0**
 
 - Removida a opção de renderizar o objeto automaticamente ao body no momento em que é criado.
 

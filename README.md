@@ -56,10 +56,6 @@ const myComponent = new Component({
 });
 ```
 
-Assim que o componente for criado, ele será automaticamente renderizado dentro do `document.body`.
-
----
-
 ## **Estrutura de Componentes**
 
 Cada componente é uma instância da classe `Component`, que recebe um objeto de configuração. O principal objetivo da **Structra** é garantir que seus componentes sejam fáceis de criar, configurar e manipular.
