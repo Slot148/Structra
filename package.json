@@ -9,12 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Slot148/Stuctra.git"
+    "url": "git+https://github.com/Slot148/Structra.git"
   },
   "author": "Nicolas Anderson Ferreira Freitas",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Slot148/Stuctra/issues"
+    "url": "https://github.com/Slot148/Structra/issues"
   },
-  "homepage": "https://github.com/Slot148/Stuctra#readme"
+  "homepage": "https://github.com/Slot148/Structra#readme"
 }
